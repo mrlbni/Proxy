@@ -1,0 +1,13 @@
+{
+  "name": "download-proxy",
+  "version": "1.0.0",
+  "description": "High-speed download proxy for Cloudflare Pages",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler pages dev ./",
+    "deploy": "wrangler pages publish ./"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
